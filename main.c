@@ -1,13 +1,12 @@
 Linux:
 
-=============================
+==========================================================================
 
-# Bootloader:
+// Bootloader:
 
 #include <stdio.h>
 #include <unistd.h>
 
-#DEFINE BAD_ERROR 0xFF67
 
 int main() 
 {
@@ -16,18 +15,41 @@ int main()
   printf("Done");
   
   printf("Detecting Drives...")
-  sleep(1); // ??????? IDK
+  sleep(1);
   
-  printf("Loading Kernel Image...")
-  if !kernel.image {
-  	print('This is the image')
-  }
   printf("Loaded the matrix PE ELF File"); //finnaly getting somewhere
   
   
-  return BAD_ERROR;
+  return 0;
 }
+
+void drivers() {
+	printf("Nvidia GPU supported...")
+  printf("AMD CPU supported...")
+  printf("RAM supported...")
+  
+  printf("Detecting Hardware...")
+  if (gpu == "NVIDIA") {
+  	printf("NVIDIA GPU")
+    if (NVIDIA_GPU == "RTX5090") or (NVIDIA_GPU > "$250") {
+    	printf("Donate money to the homeless")
+      system.brick(PC)
+    else {
+    	printf("OK! Your GPU will work!")
+    }
+    }
+  }
+  else {
+  	prinf("Get a good GPU")
+  }
+}
+
 
 ===========================NOTES=========================================
 WHO WANNA BE PROGRESS SAVER INCASE IT GET DELETED? COPY IT EVERY SO OFTEN
 Guys semicolons are after C lines...
+
+https://github.com/Ember2819/Random-People-Coding-Stuff/tree/main
+https://github.com/Ember2819/Random-People-Coding-Stuff/tree/main
+https://github.com/Ember2819/Random-People-Coding-Stuff/tree/main
+https://github.com/Ember2819/Random-People-Coding-Stuff/tree/main

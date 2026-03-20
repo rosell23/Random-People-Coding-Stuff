@@ -312,7 +312,7 @@ int puts(char* str)
 
 void _entry()
 {
-	puts("Fuck your shitty slop project and learn to code without using AI like a fat gimp"); //That's rude.
+	puts("F**k your sh*tty slop project and learn to code without using AI like a fat gimp"); //That's rude.
 }
 // Notes:
 // guys this is supposed to be a real project cmon 
